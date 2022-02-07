@@ -4,7 +4,7 @@ const cipher = {
     //codigo Ascii é utilizado para codificar
     let CodigoAscii = 65;
     let Soma = "";
-    //i+ incremento desloca letras para + / -
+    //i+ incremento desloca letras para + / - 
     for (let i = 0; i < MsgCod.length; i++) {
       //charcode converte para string o numero do alf para letra
       Soma += String.fromCharCode(
@@ -22,9 +22,7 @@ const cipher = {
       SomaDecode += String.fromCharCode(
         ((MsgCod.charCodeAt(i) - CodigoAscii - numDeslocamento) % tamAlfabeto) +
           CodigoAscii
-      );
-
-      console.log(SomaDecode);
+      );      
     }
     return SomaDecode;
   },

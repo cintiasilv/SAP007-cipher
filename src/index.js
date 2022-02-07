@@ -1,11 +1,11 @@
 import cipher from "./cipher.js";
 
 const buttonCodificar = document.getElementById("codificar");
-buttonCodificar.addEventListener("click", function () {
+buttonCodificar.addEventListener("click", function () {//Evento do click
 let MsgCod = document.getElementById("MsgCod").value;
-let offsetCod = document.getElementById("offsetCod").value;
+let offsetCod = document.getElementById("offsetCod").value;//Offset desloca
 
-let encode = cipher.encode(Number(offsetCod), MsgCod);
+let encode = cipher.encode(Number(offsetCod), MsgCod);// Funao codificar
 
 document.getElementById("codResultado").value = encode;
 });

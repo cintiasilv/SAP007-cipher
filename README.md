@@ -1,6 +1,9 @@
+Acesse a aplicação aqui: 
+
 - [Apresentação](#apresentação)
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Prototipagem](#prototipagem)
+- [Usuários](#usuários)
 - [Considerações Finais](#considerações-finais)
 - [Desenvolvedora](#desenvolvedora)
 
@@ -15,6 +18,11 @@ O site criptografa / descriptografa mensagens de texto segundo a Cifra de César
 
 :memo: Protótipo de baixa qualidade realizados em papel
 ![](/codif.jpeg)
+
+## Usuários
+Na história de usuário que basei a aplicação:
+1. Quero que o usuário mande mensagens criptografadas por diversão. 
+2. Inserir mensagens que querem codificar e copiar a mensagem criptografadas e enviar para o seus contatos.
 ## Considerações Finais
 O projeto foi muito intenso e serviu para mostrar como será o método de ensino da Laboratória, não foi fácil, mas acho que a adaptação virá com o tempo.
 
